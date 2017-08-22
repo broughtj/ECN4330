@@ -51,29 +51,27 @@ understand that this course will be demanding in a way that is likely to be new 
 
 There is only one required textbook for this course:
 
-* [Introduction to Econometrics]() by Gary Koop.
+* [Introduction to Econometrics](https://goo.gl/xqNUqp) by Gary Koop.
 
-This is an excellent introductory textbook, and is also very affordable. A used copy of the book will suffice and is likely to be available on Amazon.com
-for around $30. In my opinion this is the best introductory texbook on econometrics, with just the right balance between theory and application for the
-absolute beginner. It is also the only introductory textbook that introduces the Bayesian paradigm, which we will explore briefly. 
+This is an excellent introductory textbook, and is also very affordable. A used copy of the book will suffice and is likely to be available on Amazon.com for around $30. In my opinion this is the best introductory texbook on econometrics, with just the right balance between theory and application for the absolute beginner. It is also the only introductory textbook that introduces the Bayesian paradigm, which we will explore briefly. 
 
 The following textbooks are suggested, though not _strictly_ required:
 
-* [Teaching Econometrics with R]() by Engelbert Humperdink
-* [A Guide to Econometrics]() by Peter Kennedy
+* [Using R for Introductory Econometrics](https://goo.gl/PhA4Bh) by Florian Heiss
+* [A Guide to Econometrics](https://goo.gl/gHFeaf) by Peter Kennedy
 
-The first book is a guide to using the R programming language for econometrics and will be our source for learning R programming. The book is available to
-read online, but a cautious student would not rely on that (though a budget-constrained student may risk it).
+Some Notes: 
 
-The second book is known as the Graduate Student's Bible for interpreting the dense language of econometrics. It is certainly meant as a ___guide___ to
-accompany another textbook. It's strength is found in how well it explains the thinking behind econometric theory and models. It largely succeeds at this
-goal. The explaination of the _sampling distribution_ is worth the price alone. It also has a good explaination of how the Monte Carlo method helps us to
-understand this crucial concept. 
+<br> 
+
+The first book is a guide to using the R programming language for econometrics and will be our source for learning R programming. The book is available to read online, but a cautious student would not rely on that (though a budget-constrained student may risk it). The website is here: [Using R for Introductory Econometrics](http://www.urfie.net/).
+
+The second book is known as the Graduate Student's Bible for interpreting the dense language of econometrics. It is certainly meant as a ___guide___ to accompany another textbook. It's strength is found in how well it explains the thinking behind econometric theory and models. It largely succeeds at this goal. The explaination of the _sampling distribution_ is worth the price alone. It also has a good explaination of how the Monte Carlo method helps us to understand this crucial concept. 
 
 
 ### Assessment and Grading
 
-* Module 1: Returns, Math, Probability and Stats Refresher
+* Module 1: Returns, Probability, and Mathematical Statistics Refresher
 * Module 2: Linear Regression
 * Module 3: Univariate Time Series and Volatility
 * Module 4: Multivariate Time Series
@@ -84,8 +82,6 @@ understand this crucial concept.
 
 
 ### Schedule of Topics
-
-
 
 <br>
 
