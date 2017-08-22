@@ -111,9 +111,9 @@ A write-up on the extra credit project will be provided if there is enough deman
 
 #### Keeping a Detailed Bullet Journal
 
-I will give extra credit for students who keep a [bullet journal](http://bulletjournal.com/) throughout the semester. You can watch a video on this on [youtube](https://youtu.be/fm15cmYU0IM). You can search social media with the hashtag #\BulletJournal for ideas and suggestions. 
+I will give extra credit for students who keep a [bullet journal](http://bulletjournal.com/) throughout the semester. You can watch a video on this on [youtube](https://youtu.be/fm15cmYU0IM). You can search social media with the hashtag \#BulletJournal for ideas and suggestions. 
 
-The idea is to record your study and work for ECN 4330, but I would encourage you to use it broadly. I will require that you turn in a brief writeup about the experience and also at least two posts on social media with hashtags #\ECN4330 and #\BulletJournal. 
+The idea is to record your study and work for ECN 4330, but I would encourage you to use it broadly. I will require that you turn in a brief writeup about the experience and also at least two posts on social media with hashtags \#ECN4330 and \#BulletJournal. 
 
 While you will see very expensive notebooks used online, it could be done for just a few dollars with [this Staples Composition Notebook](https://goo.gl/GbrXUf). But feel free to use whatever you want and to personalize it to your heart's content. 
 
