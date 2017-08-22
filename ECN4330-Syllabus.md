@@ -43,10 +43,6 @@ Students must be prepared to program in the R programming language for computati
 understand that this course will be demanding in a way that is likely to be new to you if you have never programmed before. 
 
 
-### Course Objectives
-
-
-
 ### Textbooks
 
 There is only one required textbook for this course:
@@ -68,16 +64,40 @@ The second book is known as the Graduate Student's Bible for interpreting the de
 
 In addition, there will be some papers that I will post that you will be required to read and report on. These will be announced in class. 
 
+
 ### Assessment and Grading
 
+Students will be assessed according to the following:
 
+- Homework problems and computational assignments (20%)
+    + Homework assignments will correspond with your readings
+    + R computational assignments will augment your readings
+    
+- A midterm exam (20%)
+    + A traditional midterm exam in the testing center
+    + Students will be allowed an 8.5 x 11 inch cheat sheet
+    
+- A final exam (20%)
+    + A traditional final exam in the testing center
+    + Students will be allowed an 8.5 x 11 inch cheat sheet
 
+- A final project (30%)
+    + Students may work in teams of two
+    + Project topics will be announced
+    + The deliverable will be an R notebook with paper and code combined
+
+- A final essay (10%)
+    + Topic: "What Should Econometricians Do?"
+    + I will discuss this with you in class
+    + The deliverable will be an R notebook
+
+Dates for each of these stages will be discussed in class and updated on the Google Sheet schedule. 
 
 ### Software
 
 Economics 4330 is taught using the R programming language, a set of core scientific computing packages written and maintained by various third parties. I may also present other software from time to time for demonstration purposes. These might include Matlab, Python, C++, and Fortran. Students will not be required to learn these. 
 
-___NB:___ Though if a diligent student desired to, I would facilitate programming in Python (which I highly recommend!).
+___NB:___ If a diligent student desired to, I would facilitate programming in Python (which I highly recommend!). The student would have to be simultaneously enrolled in my Fall 2017 Finance 5350: Financial Modelling course. 
 
 #### R and R Markdown
 
