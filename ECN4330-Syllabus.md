@@ -10,6 +10,7 @@
 - [Slack Channel](https://ecn4330.slack.com)
 - [Course Canvas](https://usu.instructure.com/courses/468350)
 - [Course Homepage](https:/broughtj.github.com/Ecn4330)
+- [Course GitHub Page](https://github.com/broughtj/ECN4330)
 
 ## Instructor Information
 
