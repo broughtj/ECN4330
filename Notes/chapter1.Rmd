@@ -1,0 +1,52 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+## Introduction
+
+## Types of Economic Data
+
+### Time Series
+
+
+### Cross-Sectional Data
+
+
+### Panel Data
+
+
+
+### Data Transformations
+
+
+#### Levels and Growth Rates
+
+
+#### Prices and Returns
+
+
+## Working with Data: Graphical Methods
+
+
+### Time Series Graphs
+
+
+### Histograms
+
+
+### XY Plots
+
+
+## Working with Data: Descriptive Statistics and Correlation
+
+
+### Expected Values and Variances
+
+
+### Correlation
+
+
+### Population Correlation and Variance
+
+
