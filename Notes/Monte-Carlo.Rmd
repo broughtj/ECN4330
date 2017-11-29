@@ -1,0 +1,155 @@
+---
+title: "Introduction to Monte Carlo Simulation"
+author: "Tyler J. Brough, Ph.D."
+date: "October 11, 2017"
+output: html_document
+---
+
+## A Simple Example with the Exponential Distribution
+
+```{R}
+# Set the sample size 
+N <- 200
+lam = 4.5
+
+# Number of repititions for the Monte Carlo study
+M <- 200000
+
+# The Main Monte Carlo loop
+avgs <- rep(0, M)
+for(i in 1:M)
+{
+  x = rexp(N, rate = lam)
+  avgs[i] = mean(x)
+}
+
+# Make a density plot
+plot(density(avgs), lwd = 2, type = "l", col = "blue")
+```
+
+
+```{R}
+xbar <- mean(avgs)
+s <- sd(avgs)
+```
+
+
+## Simulating the Simple Linear Regression Model
+
+The Simple CLRM is the following:
+
+$$
+y_{i} = \alpha + \beta x_{i} + \varepsilon_{i}
+$$
+
+We can simulate the CLRM by choosing some parameter values and simulating values of $X$ and $\varepsilon$
+
+```{R}
+alpha <- 2.0
+beta <- 3.2
+x <- runif(M)
+u <- rnorm(M)
+y <- alpha + beta * x + u
+head(y, 20)
+```
+
+Let's simulate the sampling distribution for the CLRM:
+
+
+```{R}
+R <- 500
+bhat <- rep(0, R)
+
+for(i in 1:R)
+{
+  u <- rnorm(N)
+  y <- alpha + beta * x + u
+  fit <- lm(y ~ x)
+  bhat[i] <- coef(fit)[[2]]
+}
+
+plot(density(bhat), lwd = 3, type = "l", col = "green")
+```
+
+
+
+## The Multiple CLRM
+
+The multiple CLRM is the following:
+
+$$
+y_{i} = \alpha + \beta_{1}x_{1,i} + \beta_{2} x_{2,i} + \epsilon_{i}
+$$
+
+Let's simulate this process as follows (choosing some arbitrary parameters). First let's examine the concept of ommitted variable bias
+
+```{R}
+R <- 100
+alpha <- 1.7
+beta1 <- 2.8
+beta2 <- 3.2
+x1 <- rnorm(N, sd = 20)
+x2 <- rnorm(N, sd = 0.8)
+
+b1hat <- rep(0, R)
+for(i in 1:R)
+{
+  # the "true" data generating process
+  u <- rnorm(N)
+  y = alpha + beta1 * x1 + beta2 * x2 + u
+  
+  # the econometricians estimate (omitting x2)
+  b1hat[i] <- coef(lm(y ~ x1))[[2]]
+}
+
+b1avg <- mean(b1hat)
+b1sd <- sd(b1hat)
+print(b1avg, b1sd)
+
+
+## Make a density plot
+plot(density(b1hat), lwd = 3, type = "l", col = "red")
+```
+
+
+## HWK Problem 2
+
+```{r}
+alpha = 0.0
+beta = 0.97
+```
+
+Then you can run a single run of the simulation as follows:
+
+```{r}
+x <- runif(100)
+u <- rnorm(100)
+y <- alpha + beta * x + u
+```
+
+
+```{r}
+N <- 1000
+
+
+
+
+
+# Set up the simulation
+x <- runif(N)
+#bhat <- rep(0, N)
+u <- rnorm(N)
+y <- alpha + beta * x + u
+  
+# Hand data to econometrician
+fit <- lm(y ~ x)
+obj <- summary(fit)
+
+
+# The econometrician forms the hypothesis test
+bhat <- coef(fit)[2]
+std.err <- obj$coefficients[,2][2]
+tstat <- (bhat - 1.0) / std.err
+tcrit <- 2.08
+```
+
